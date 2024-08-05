@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Калькулятор</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Калькулятор</h1>
+    <div id="strCalculations"></div>
+    <div class=" input_field">
+        <input type="number"
+               id="operation"
+               class="input"
+               value="0"
+               autofocus/>
+    </div>
+
+    <div class="buttons">
+        <div class="dig">
+            <button id="7" class="btn digit">7</button>
+            <button id="8" class="btn digit">8</button>
+            <button id="9" class="btn digit">9</button>
+            <button id="4" class="btn digit">4</button>
+            <button id="5" class="btn digit">5</button>
+            <button id="6" class="btn digit">6</button>
+            <button id="1" class="btn digit">1</button>
+            <button id="2" class="btn digit">2</button>
+            <button id="3" class="btn digit">3</button>
+            <button id="point" class="btn">.</button>
+            <button id="0" class="btn digit">0</button>
+            <button id="calculate" class="btn">=</button>
+        </div>
+        <div class="func item1">
+            <button id="cleanAll" class="btn">CA</button>
+            <button id="cleanInput" class="btn">C</button>
+            <button id="backspace" class="btn">&#8656;</button>
+            <button id="squared" class="btn">x<sup>2</sup></button>
+            <button id="degree" class="btn">x<sup>y</sup></button>
+            <button id="sqrt" class="btn">&#8730;x</button>
+        </div>
+        <div class="func item2">
+            <button id="minus" class="btn">&#8722;</button>
+            <button id="plus" class="btn">+</button>
+            <button id="divide" class="btn">&#247;</button>
+            <button id="multiply" class="btn">&#215;</button>
+            <button id="percent" class="btn">%</button>
+            <button id="opposite" class="btn">&#177;</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

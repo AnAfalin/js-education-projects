@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body {
+    font-family: "Roboto Slab", serif;
+    background-color: #01013f;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+    padding: 0 20px;
+    width: 100%;
+}
+#container .slide {
+    height: 80vh;
+    margin: 10px;
+    flex: 1;
+    border-radius: 20px;
+    border: 1px solid white;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    position: relative;
+    transition: all 500ms ease-in-out;
+}
+#container .slide h3 {
+    position: absolute;
+    margin: 0;
+    left: 20px;
+    bottom: 20px;
+    font-size: 24px;
+    opacity: 0;
+}
+#container .slide.active {
+    flex: 10;
+}
+#container .slide.active h3{
+    opacity: 1;
+    transition: opacity 0.7s ease-in 0.5s;
+}
+
+#peugeot {
+    background-image: url('https://images.unsplash.com/photo-1639640163962-9e845bd7294a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+#porsche {
+    background-image: url('https://images.unsplash.com/photo-1646567860060-4fa0a5cb3526?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+#volkswagen_polo {
+    background-image: url('https://images.unsplash.com/photo-1699354299574-09f8d6d3b011?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+#audi {
+    background-image: url('https://images.unsplash.com/photo-1634053646914-788147b725ed?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+#mercedes {
+    background-image: url('https://images.unsplash.com/photo-1679049864217-d845dccae8dd?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+#volkswagen_tr {
+    background-image: url('https://images.unsplash.com/photo-1565297373592-731bbb475700?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+#bmw {
+    background-image: url('https://images.unsplash.com/photo-1614026480209-cd9934144671?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
